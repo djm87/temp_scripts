@@ -1,0 +1,277 @@
+     VERSION    6     Fri Nov 18 12:42:42 2022                                  
+      DESCR   dan                                                               
+    HSTRY  1 EXPEDT  Win32  Nov 18 13:18:51 2022 P PH                           
+    HSTRY  2 EXPEDT  Win32  Nov 18 13:18:58 2022 File cleanup only              
+    HSTRY  3 POWPREF Win32  Nov 18 13:19:05 2022                                
+    HSTRY  4 GENLES  Win32  Nov 18 13:19:11 2022 Sdsq= 0.832E+05 S/E= 0.129     
+    HSTRY  5 EXPEDT  Win32  Nov 18 13:21:00 2022             L  LO              
+    HSTRY  6 POWPREF Win32  Nov 18 13:21:03 2022                                
+    HSTRY  7 GENLES  Win32  Nov 18 13:21:05 2022 Sdsq= 0.719E+05 S/E= 0.723     
+    HSTRY  8 GENLES  Win32  Nov 18 13:21:07 2022 Sdsq= 0.718E+05 S/E= 0.198     
+    HSTRY  9 EXPEDT  Win32  Nov 18 13:21:55 2022             L   O              
+    HSTRY 10 POWPREF Win32  Nov 18 13:21:58 2022                                
+    HSTRY 11 GENLES  Win32  Nov 18 13:21:59 2022 Sdsq= 0.665E+05 S/E=  2.01     
+    HSTRY 12 GENLES  Win32  Nov 18 13:22:02 2022 Sdsq= 0.662E+05 S/E= 0.354E-01 
+    HSTRY 13 GENLES  Win32  Nov 18 13:22:04 2022 Sdsq= 0.662E+05 S/E= 0.794E-02 
+    HSTRY 14 EXPEDT  Win32  Nov 18 13:24:45 2022             L   O              
+    HSTRY 15 POWPREF Win32  Nov 18 13:24:47 2022                                
+    HSTRY 16 GENLES  Win32  Nov 18 13:24:50 2022 Sdsq= 0.662E+05 S/E= 0.427E-01 
+    HSTRY 17 GENLES  Win32  Nov 18 13:24:52 2022 Sdsq= 0.662E+05 S/E= 0.626E-02 
+    HSTRY 18 GENLES  Win32  Nov 18 13:24:53 2022 Sdsq= 0.662E+05 S/E= 0.449E-02 
+    HSTRY 19 EXPEDT  Win32  Nov 18 13:29:46 2022 P P         LA                 
+    HSTRY 20 POWPREF Win32  Nov 18 13:29:50 2022                                
+    HSTRY 21 GENLES  Win32  Nov 18 13:29:53 2022 Sdsq= 0.672E+05 S/E=  19.4     
+    HSTRY 22 EXPEDT  Win32  Nov 18 13:30:32 2022             L   O              
+    HSTRY 23 POWPREF Win32  Nov 18 13:30:35 2022                                
+    HSTRY 24 GENLES  Win32  Nov 18 13:30:37 2022 Sdsq= 0.660E+05 S/E=  12.9     
+    HSTRY 25 EXPEDT  Win32  Nov 18 13:33:39 2022             L   O              
+    HSTRY 26 POWPREF Win32  Nov 18 13:33:41 2022                                
+    HSTRY 27 GENLES  Win32  Nov 18 13:33:42 2022 Sdsq= 0.661E+05 S/E=  9.97     
+    HSTRY 28 GENLES  Win32  Nov 18 13:33:46 2022 Sdsq= 0.652E+05 S/E=  21.0     
+    HSTRY 29 POWPREF Win32  Nov 18 13:33:51 2022                                
+    HSTRY 30 EXPEDT  Win32  Nov 18 13:34:16 2022             L   O              
+    HSTRY 31 POWPREF Win32  Nov 18 13:34:18 2022                                
+    HSTRY 32 GENLES  Win32  Nov 18 13:34:20 2022 Sdsq= 0.594E+05 S/E=  18.2     
+    HSTRY 33 EXPEDT  Win32  Nov 18 13:35:07 2022             L   O              
+    HSTRY 34 POWPREF Win32  Nov 18 13:35:09 2022                                
+    HSTRY 35 GENLES  Win32  Nov 18 13:35:12 2022 Sdsq= 0.427E+05 S/E=  17.6     
+    HSTRY 36 GENLES  Win32  Nov 18 13:35:17 2022 Sdsq= 0.413E+05 S/E=  3.36     
+    HSTRY 37 GENLES  Win32  Nov 18 13:35:19 2022 Sdsq= 0.413E+05 S/E=  2.81     
+    HSTRY 38 EXPEDT  Win32  Nov 18 13:36:00 2022             L   O              
+    HSTRY 39 POWPREF Win32  Nov 18 13:36:02 2022                                
+    HSTRY 40 GENLES  Win32  Nov 18 13:36:04 2022 Sdsq= 0.319E+06 S/E=  276.     
+    HSTRY 41 GENLES  Win32  Nov 18 13:36:07 2022 Sdsq= 0.198E+05 S/E=  68.8     
+    HSTRY 42 GENLES  Win32  Nov 18 13:36:10 2022 Sdsq= 0.164E+05 S/E=  4.36     
+    HSTRY 43 GENLES  Win32  Nov 18 13:36:13 2022 Sdsq= 0.162E+05 S/E= 0.827     
+    HSTRY 44 EXPEDT  Win32  Nov 18 13:37:21 2022 File cleanup only              
+    HSTRY 45 POWPREF Win32  Nov 18 13:37:24 2022                                
+    HSTRY 46 GENLES  Win32  Nov 18 13:37:27 2022 Sdsq= 0.163E+05 S/E=  1.15     
+    HSTRY 47 EXPEDT  Win32  Nov 18 13:37:54 2022             L   O              
+    HSTRY 48 POWPREF Win32  Nov 18 13:37:56 2022                                
+    HSTRY 49 GENLES  Win32  Nov 18 13:37:58 2022 Sdsq= 0.162E+05 S/E= 0.734     
+    HSTRY 50 EXPEDT  Win32  Nov 18 13:38:08 2022 File cleanup only              
+    HSTRY 51 POWPREF Win32  Nov 18 13:38:13 2022                                
+    HSTRY 52 GENLES  Win32  Nov 18 13:38:17 2022 Sdsq= 0.162E+05 S/E= 0.964     
+    HSTRY 53 GENLES  Win32  Nov 18 13:38:21 2022 Sdsq= 0.162E+05 S/E= 0.869     
+    HSTRY 54 EXPEDT  Win32  Nov 18 13:40:01 2022             L   O              
+    HSTRY 55 POWPREF Win32  Nov 18 13:40:03 2022                                
+    HSTRY 56 GENLES  Win32  Nov 18 13:40:05 2022 Sdsq= 0.160E+05 S/E=  5.10     
+    HSTRY 57 GENLES  Win32  Nov 18 13:40:07 2022 Sdsq= 0.159E+05 S/E= 0.158     
+    HSTRY 58 EXPEDT  Win32  Nov 18 13:40:34 2022             L   O              
+    HSTRY 59 POWPREF Win32  Nov 18 13:40:36 2022                                
+    HSTRY 60 GENLES  Win32  Nov 18 13:40:38 2022 Sdsq= 0.212E+05 S/E=  65.8     
+    HSTRY 61 GENLES  Win32  Nov 18 13:40:40 2022 Sdsq= 0.143E+05 S/E= 0.769     
+    HSTRY 62 GENLES  Win32  Nov 18 13:40:42 2022 Sdsq= 0.143E+05 S/E= 0.252E-01 
+    HSTRY 63 EXPEDT  Win32  Nov 18 13:40:57 2022             L   O              
+    HSTRY 64 POWPREF Win32  Nov 18 13:41:00 2022                                
+    HSTRY 65 GENLES  Win32  Nov 18 13:41:02 2022 Sdsq= 0.143E+05 S/E= 0.368     
+    HSTRY 66 GENLES  Win32  Nov 18 13:41:07 2022 Sdsq= 0.143E+05 S/E= 0.225E-01 
+    HSTRY 67 EXPEDT  Win32  Nov 18 13:42:56 2022             L   O              
+    HSTRY 68 POWPREF Win32  Nov 18 13:43:03 2022                                
+    HSTRY 69 GENLES  Win32  Nov 18 13:43:05 2022 Sdsq= 0.142E+05 S/E=  1.70     
+    HSTRY 70 GENLES  Win32  Nov 18 13:43:07 2022 Sdsq= 0.142E+05 S/E= 0.714E-01 
+    HSTRY 71 GENLES  Win32  Nov 18 13:43:09 2022 Sdsq= 0.142E+05 S/E= 0.155E-01 
+    HSTRY 72 GENLES  Win32  Nov 18 13:43:11 2022 Sdsq= 0.142E+05 S/E= 0.164E-01 
+    HSTRY 73 GENLES  Win32  Nov 18 13:43:14 2022 Sdsq= 0.142E+05 S/E= 0.137E-01 
+    HSTRY 74 EXPEDT  Win32  Nov 18 13:44:29 2022             L   O              
+    HSTRY 75 POWPREF Win32  Nov 18 13:44:31 2022                                
+    HSTRY 76 GENLES  Win32  Nov 18 13:44:33 2022 Sdsq= 0.142E+05 S/E= 0.117E-01 
+    HSTRY 77 EXPEDT  Win32  Nov 18 13:45:01 2022             L   O              
+    HSTRY 78 POWPREF Win32  Nov 18 13:45:02 2022                                
+    HSTRY 79 GENLES  Win32  Nov 18 13:45:03 2022 Sdsq= 0.142E+05 S/E= 0.935E-02 
+    HSTRY 80 GENLES  Win32  Nov 18 13:45:08 2022 Sdsq= 0.142E+05 S/E= 0.117E-01 
+    HSTRY 81 EXPEDT  Win32  Nov 18 13:46:53 2022             L   O              
+    HSTRY 82 POWPREF Win32  Nov 18 13:47:02 2022                                
+    HSTRY 83 GENLES  Win32  Nov 18 13:47:04 2022 Sdsq= 0.142E+05 S/E= 0.128E-01 
+    HSTRY 84 GENLES  Win32  Nov 18 13:47:06 2022 Sdsq= 0.142E+05 S/E= 0.110E-01 
+    HSTRY 85 GENLES  Win32  Nov 18 13:47:08 2022 Sdsq= 0.142E+05 S/E= 0.113E-01 
+  DSGL CDAT3  DRAD ARAD NOFO                                                    
+  GNLS  RUN on Nov 18 13:47:11 2022    Total cycles run 126       14216.        
+  GNLS CDAT1  MXCY  3                                                           
+  GNLS SHFTS      0.06      0.01                                                
+ AFAC  O     3.048513.2771 2.2868 5.7011 1.5463  .3239  .867032.9089  .2508 RHF 
+ AFAC  O_    15.999 .5805      .00019                                           
+ AFAC  O_SIZ      1.09      0.89 1.45   96 1.40                                 
+ AFAC  O_XAB  988.0 590.6 293.1 30.48 17.21 1730. 478.0                         
+ AFAC  O_XF1  0.093 0.072 0.049 0.011 0.006 0.121 0.063-0.002-0.003-0.003       
+ AFAC  O_XF2  0.073 0.052 0.032 0.006 0.004 0.106 0.044 0.000 0.000 0.000       
+ AFAC AL     6.4202 3.0387 1.9002  .7426 1.593631.5472 1.964685.0886 1.1151 RHF 
+ AFAC AL_    26.982 .3449        .231                                           
+ AFAC AL_SIZ      1.60      1.43 2.05  109                                      
+ AFAC AL_XAB   7074  4368  2249 225.8 113.7 11600 3420.                         
+ AFAC AL_XF1  0.326 0.277 0.213 0.064 0.041 0.376 0.255-0.002-0.003-0.005       
+ AFAC AL_XF2  0.521 0.381 0.246 0.051 0.031 0.729 0.328 0.004 0.004 0.003       
+ AFAC NB    17.61421.1886512.014411.76604.04183.2047853.5334669.79573.75591*RHF 
+ AFAC NB   M  .3946 49.230 1.3197 14.822 -.7269  9.616  .0000   .000  .0129     
+ AFAC NB   N 7.4796 33.179 5.0884 11.571 -.0281  1.564  .0000   .000  .0047 2.00
+ AFAC NB_    92.906 .7054        1.15                                           
+ AFAC NB_SIZ      1.67      1.47 2.30  007                                      
+ AFAC NB_XAB  66630 42560 22960  2617  9200104000 33300                         
+ AFAC NB_XF1  0.121 0.107-0.112-2.073-0.828-0.166 0.050 0.147 0.137 0.090       
+ AFAC NB_XF2  4.876 3.677 2.483 0.622 2.840 6.580 3.213 0.534 0.502 0.380       
+ AFAC TI     9.7595 7.8508 7.3558  .5000 1.699135.6338 1.9021116.105 1.2807     
+ AFAC TI   M  .4657 33.590  .5490  9.879 -.0291   .323  .0000   .000  .0123     
+ AFAC TI   N 4.3583 36.056 3.8230 11.133  .6855  3.469  .0000   .000  .0020 2.00
+ AFAC TI_     47.90-.3370        6.09                                           
+ AFAC TI_SIZ      1.66      1.46 2.05  111                                      
+ AFAC TI_XAB  45450 29430 16100  1849 863.6 8680. 23100                         
+ AFAC TI_XF1 -1.639-0.332 0.219 0.278 0.206-2.225-0.062 0.021 0.018 0.005       
+ AFAC TI_XF2  3.454 2.642 1.807 0.446 0.283 0.526 2.321 0.041 0.039 0.028       
+ EXPR  HTYP1  PXC                                                               
+ EXPR  NATYP    4                                                               
+ EXPR  NHST     1                                                               
+ EXPR ATYP 1  AL          2      1.60      1.43 2.05  109                       
+ EXPR ATYP 2  O           2      1.09      0.89 1.45   96 1.40                  
+ EXPR ATYP 3  TI          1      1.66      1.46 2.05  111                       
+ EXPR ATYP 4  NB          1      1.67      1.47 2.30  007                       
+ EXPR NPHAS     1    1    1    0    0    0    0    0    0                       
+ REFN GDNFT  Reduced CHI**2 =  6.298     for   32 variables                     
+ REFN RPOWD     0.2138    0.1545   2289  14216.        0.0000    0.0000     0   
+ REFN STATS  Cycle 126 There were  2289 observations. Total CHI**2 = 1.4216E+04 
+CRS1    PNAM  Alumina_1                                                         
+CRS1   NATOM    2                                                               
+CRS1  ABC     4.778985  4.778985 13.054786    Y    3                            
+CRS1  ABCSIG  0.000532  0.000532  0.002944                                      
+CRS1  ANGLES   90.0000   90.0000  120.0000                                      
+CRS1  ANGSIG    0.0000    0.0000    0.0000                                      
+CRS1  AT  1A  AL        0.000000  0.000000  0.147800  1.000000AL1       12 000  
+CRS1  AT  1B  0.010000                                                    I     
+CRS1  AT  2A  O         0.306100  0.000000  0.250000  1.000000O2        18 000  
+CRS1  AT  2B  0.010000                                                    I     
+CRS1  CELVOL        258.209          0.060                                      
+CRS1  CHMF 1  AL            1.00                                                
+CRS1  CHMF 2  O             1.50                                                
+CRS1  CHMF 3  AL            1.00                                                
+CRS1  OD        6    6    0 NNNY    0    5    0.0000    0.0000    0.0000        
+CRS1  OD  1A   2  0  0   4  0  0   4  0  3   6  0  0   6  0  3   6  0  6        
+CRS1  OD  1B   -0.4123    0.2759    0.1052    0.1258    0.0369    0.1646        
+CRS1  OD  1C0.9053E-010.9534E-010.1044E+000.9534E-010.1167E+000.7961E-01        
+CRS1  SG SYM  R -3 c H                                                          
+CRS1  SPAXIS    0    0    1                                                     
+CRS2    PNAM  Alumina_2                                                         
+CRS2   NATOM    2                                                               
+CRS2  ABC     4.745224  4.745224 12.969716    Y    3                            
+CRS2  ABCSIG  0.000511  0.000511  0.002870                                      
+CRS2  ANGLES   90.0000   90.0000  120.0000                                      
+CRS2  ANGSIG    0.0000    0.0000    0.0000                                      
+CRS2  AT  1A  AL        0.000000  0.000000  0.147800  1.000000AL1       12 000  
+CRS2  AT  1B  0.010000                                                    I     
+CRS2  AT  2A  O         0.306100  0.000000  0.250000  1.000000O2        18 000  
+CRS2  AT  2B  0.010000                                                    I     
+CRS2  CELVOL        252.915          0.059                                      
+CRS2  CHMF 1  AL            1.00                                                
+CRS2  CHMF 2  O             1.50                                                
+CRS2  CHMF 3  AL            1.00                                                
+CRS2  OD        6    6    0 NNNY    0    5    0.0000    0.0000    0.0000        
+CRS2  OD  1A   2  0  0   4  0  0   4  0  3   6  0  0   6  0  3   6  0  6        
+CRS2  OD  1B   -0.3110    0.4163    0.1758    0.0678   -0.1521    0.0041        
+CRS2  OD  1C0.9307E-010.9762E-010.1027E+000.9741E-010.1145E+000.8007E-01        
+CRS2  SG SYM  R -3 c H                                                          
+CRS2  SPAXIS    0    0    1                                                     
+CRS3    PNAM  Beta                                                              
+CRS3   NATOM    2                                                               
+CRS3  ABC     3.290921  3.290921  3.290921    Y    3                            
+CRS3  ABCSIG  0.000122  0.000122  0.000122                                      
+CRS3  ANGLES   90.0000   90.0000   90.0000                                      
+CRS3  ANGSIG    0.0000    0.0000    0.0000                                      
+CRS3  AT  1A  TI        0.000000  0.000000  0.000000  0.750000TI1        2 000  
+CRS3  AT  1B  0.010000                                                    I     
+CRS3  AT  2A  NB        0.000000  0.000000  0.000000  0.250000NB2        2 000  
+CRS3  AT  2B  0.010000                                                    I     
+CRS3  CELVOL         35.641          0.004                                      
+CRS3  CHMF 3  TI            0.75                                                
+CRS3  CHMF 4  NB            0.25                                                
+CRS3  OD       12    6    0 NNNY    0    5    0.0000    0.0000    0.0000        
+CRS3  OD  1A   4  0  1   6  0  1   8  0  1  10  0  1  12  0  1  12  0  2        
+CRS3  OD  1B    0.2534    0.4174   -0.9768    0.1349    0.4003    0.2419        
+CRS3  OD  1C0.9775E-010.2028E+000.1629E+000.2098E+000.3216E+000.1481E+00        
+CRS3  SG SYM  I m -3 m                                                          
+CRS3  SPAXIS    0    0    1                                                     
+HAP1 1 ZONE     0    0    0    0                                                
+HAP1 1EXTPOW    0.00000E+00    N    0                                           
+HAP1 1MASSFR    0.3568    0.0000                                                
+HAP1 1NAXIS     1                                                               
+HAP1 1PHSFR      1.0000        N    0                                           
+HAP1 1PRCF      3   19   0.00010    4YNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN       
+HAP1 1PRCF 1   0.499750E+03   0.000000E+00   0.000000E+00   0.000000E+00        
+HAP1 1PRCF 2   0.400000E+00   0.000000E+00   0.100000E-02   0.100000E-02        
+HAP1 1PRCF 3   0.000000E+00   0.000000E+00   0.000000E+00   0.000000E+00        
+HAP1 1PRCF 4   0.000000E+00   0.000000E+00   0.000000E+00   0.000000E+00        
+HAP1 1PRCF 5   0.000000E+00   0.000000E+00   0.000000E+00                       
+HAP1 1PREFO1  1.000000  1.000000  0.000000  0.000000  1.000000   NN    0    0   
+HAP1 1RADDAM    0.00000E+00    N    0      0.00                                 
+HAP2 1 ZONE     0    0    0    0                                                
+HAP2 1EXTPOW    0.00000E+00    N    0                                           
+HAP2 1MASSFR    0.3489    0.0138                                                
+HAP2 1NAXIS     1                                                               
+HAP2 1PHSFR     0.97800        Y    4                                           
+HAP2 1PRCF      3   19   0.00010    4YNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN       
+HAP2 1PRCF 1   0.447226E+03   0.000000E+00   0.000000E+00   0.000000E+00        
+HAP2 1PRCF 2   0.400000E+00   0.000000E+00   0.100000E-02   0.100000E-02        
+HAP2 1PRCF 3   0.000000E+00   0.000000E+00   0.000000E+00   0.000000E+00        
+HAP2 1PRCF 4   0.000000E+00   0.000000E+00   0.000000E+00   0.000000E+00        
+HAP2 1PRCF 5   0.000000E+00   0.000000E+00   0.000000E+00                       
+HAP2 1PREFO1  1.000000  1.000000  0.000000  0.000000  1.000000   NN    0    0   
+HAP2 1RADDAM    0.00000E+00    N    0      0.00                                 
+HAP3 1 ZONE     0    0    0    0                                                
+HAP3 1EXTPOW    0.00000E+00    N    0                                           
+HAP3 1MASSFR    0.2943    0.0091                                                
+HAP3 1NAXIS     1                                                               
+HAP3 1PHSFR      4.2653        Y    4                                           
+HAP3 1PRCF      3   19   0.00010    0YNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN       
+HAP3 1PRCF 1   0.102474E+04   0.000000E+00   0.000000E+00   0.000000E+00        
+HAP3 1PRCF 2   0.400000E+00   0.000000E+00   0.100000E-02   0.100000E-02        
+HAP3 1PRCF 3   0.000000E+00   0.000000E+00   0.000000E+00   0.000000E+00        
+HAP3 1PRCF 4   0.000000E+00   0.000000E+00   0.000000E+00   0.000000E+00        
+HAP3 1PRCF 5   0.000000E+00   0.000000E+00   0.000000E+00                       
+HAP3 1PREFO1  1.000000  1.000000  0.000000  0.000000  1.000000   NN    0    0   
+HAP3 1RADDAM    0.00000E+00    N    0      0.00                                 
+HST  1  HFIL  dan.fxye                                                          
+HST  1  HNAM  yscan_weld_7_069944_test.txt                                      
+HST  1  IFIL  Dan.prm                                                           
+HST  1 BANK     1                                                               
+HST  1 BIGFO   0.140028E+05                                                     
+HST  1 CHANS         0         1      2289 129797436      2500    0    0        
+HST  1 EPHAS    0    0    0    0    0    0    0    0    0    Y                  
+HST  1 ICONR 0.1477730 0.0000000    0.0000               0.990    0     0.      
+HST  1 ICONS 0.1477730 0.0000000    0.0000               0.990    0     0.      
+HST  1 IRAD     0                                                               
+HST  1 MAXRF   73                                                               
+HST  1 NEXC     2                                                               
+HST  1 NFOBS   88   86   12    0    0    0    0    0    0                       
+HST  1 NPHAS    1    1    1    0    0    0    0    0    0                       
+HST  1 NREF   213    0.7572    Y    Y                                           
+HST  1 R-FAC  186   0.32931   1.243732E+03                                      
+HST  1 RPOWD    0.2138    0.1545   2289  14216.        0.0000    0.0000    0    
+HST  1 TRNGE   2.50190  11.19630                                                
+HST  1 WREXP    0.0858                                                          
+HST  1ABSCOR   0.000000E+00   0.000000E+00    N    0                            
+HST  1BAKGD     2    3    Y    3    Y                                           
+HST  1BAKGD1  -0.359270E+04   0.488849E+04  -0.121570E+04                       
+HST  1CHI       0.0000                                                          
+HST  1DETAZM     0.000                                                          
+HST  1EXC  1     0.000     0.000                                                
+HST  1EXC  2    11.200  1000.000                                                
+HST  1EXMNMX   1.00000   1.00000                                                
+HST  1FFANS1  AL           0.000     0.000   NN    0                            
+HST  1FFANS2  O            0.000     0.000   NN    0                            
+HST  1FFANS3  TI           0.000     0.000   NN    0                            
+HST  1FFANS4  NB           0.000     0.000   NN    0                            
+HST  1HSCALE    0.14248E-01    Y    3                                           
+HST  1I HEAD                                                                    
+HST  1I ITYP    0    0.0000  180.0000         1                                 
+HST  1MNREF     0    1.0000                                                     
+HST  1ODMNMX   0.53442   1.43661                                                
+HST  1OMEGA     0.0000    Y                                                     
+HST  1PHI       0.0000                                                          
+HST  1PRCF1     3    8   0.00100                                                
+HST  1PRCF11   1.163000e+00  -1.260000e-01   6.300000e-02   0.000000e+00        
+HST  1PRCF12   0.000000e+00   0.000000e+00   1.000000e-03   1.000000e-03        
+HST  1RSP    0.1746 0.2168 0.0765 0.1299 0.2266 0.0989 0.0894 0.1368 0.1507     
+HST  1RSPA   0.1868 0.2186 0.0695 0.1355 0.3525 0.1308 0.1139 0.1810 0.2399     
+HST  1RSPTT   2.50  3.46  4.43  5.40  6.36  7.33  8.30  9.26 10.23 11.20        
+HST  1RSPW   0.2156 0.2867 0.0925 0.1579 0.3111 0.1281 0.1112 0.1736 0.2030     
+HST  1RSPWA  0.1953 0.2686 0.0821 0.1598 0.5173 0.1702 0.1846 0.2501 0.3383     
+HST  1TRMNMX   1.00000   1.00000                                                
+ZZZZZZZZZZZZ  Last EXP file record                                              
+    HSTRY 86 GENLES  Win32  Nov 18 13:47:11 2022 Sdsq= 0.142E+05 S/E= 0.949E-02 
