@@ -1,0 +1,62 @@
+[
+	{
+		"name": "Main",
+		"directory": "../../../Projects/APS_TiNb/data/pilatus/yscan_weld_7",
+		"info": [
+			{
+				"name": "Integrated spectra",
+				"type": "line",
+				"data": 
+				[
+					{
+						"column": "FILE_spectra_txt",
+						"xcol": 0,
+						"ycol": 1,
+						"delimiter": null
+					}
+				]
+			},
+			{
+				"name": "Diffraction image",
+				"type": "image",
+				"data": 
+				[
+					"FILE_pattern",
+					"FILE_pattern_log"
+				]
+			}
+			
+		]
+	},
+	{
+		"name": "Pure Image",
+		"directory": "../../../Projects/APS_TiNb/data/pilatus",
+		"info": [
+			{
+				"name": "Integrated spectra",
+				"type": "image",
+				"data": 
+				[
+					"FILE_spectra"
+				]
+			},
+			{
+				"name": "Diffraction image",
+				"type": "image",
+				"data": 
+				[
+					"FILE_pattern",
+					"FILE_pattern_log"
+				]
+			},
+			{
+				"name": "Diffraction image raw",
+				"type": "image",
+				"data": 
+				[
+					"FILE_pattern_raw"
+				]
+			}
+		]
+	}
+]
