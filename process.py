@@ -13,9 +13,9 @@ from functools import partial
 from multiprocessing import Pool, freeze_support
 import pandas as pd
 
-NCPUS = 10
+NCPUS = 30
 
-watch_dir = Path.cwd() / "yscan_weld_7"
+watch_dir = Path.cwd() / "tempdata/weld_17_156_RT_P15_center_BS250"
 watch_dir.mkdir(exist_ok=True)
 
 poni_file = "cal_nov17_451pm.poni"
@@ -65,13 +65,15 @@ def write_image(image: np.array,file:Path)->None:
     cv2.imwrite(str(file),image)
 
 def image_integrate(ai,img_array,mask,npoints):
-    ttheta,intensity = ai.integrate1d_ng(img_array,
+    ttheta,intensity,sigma = ai.integrate1d_ng(img_array,
                             npoints,
                             mask=mask,
                             radial_range=[2.5,12],
                             method=("bbox", "csr", "cython"),
-                            unit="2th_deg")
-    return ttheta,intensity
+                            unit="2th_deg",
+                            error_model="Poisson")
+
+    return ttheta,intensity,sigma
 
 def save_spectra_image(ttheta,intensity,wavelength,file: Path):
     plt.plot(calc_dspacing(ttheta,wavelength), np.sqrt(intensity),linestyle='-', marker='+',markersize=5, color='k')
@@ -82,12 +84,18 @@ def save_spectra_image(ttheta,intensity,wavelength,file: Path):
     plt.show()
     plt.savefig(file,format='png',dpi=100)
 
-def write_spectra(ttheta,intensity,file):
-    np.savetxt(file,
-        np.c_[ttheta,intensity],
-        delimiter='\t')
-        #header='2theta,Intensity')
-
+def write_spectra(ttheta,intensity,file,sigma=None):
+	if sigma is None:
+		np.savetxt(file,
+			np.c_[ttheta,intensity],
+			delimiter='\t')
+			#header='2theta,Intensity')
+	else:
+		np.savetxt(file,
+			np.c_[ttheta,intensity,sigma],
+			delimiter='\t',
+            header=f"{file}\nBANK 1 {len(ttheta)} {len(ttheta)} CONS {ttheta[0]} {ttheta[1]-ttheta[0]} 0 0 FXYE",
+            comments='')
 def calc_dspacing(ttheta: np.array,wavelength: float):
     return 1e10*wavelength/(2*np.sin(np.radians(ttheta)/2))    
 
@@ -114,17 +122,20 @@ def process_image(file: str):
             compress_image(img_array)),str(filename))
 
     #Integration
-    ttheta,intensity = image_integrate(ai,img_array,mask.data,npoints=2500)
+    ttheta,intensity,sigma = image_integrate(ai,img_array,mask.data,npoints=2500)
 
-    filename = file.parent / image_spectra_dir / (Path(file).stem + '.png')
-    if not filename.parent.is_dir():
-        filename.parent.mkdir(exist_ok=True)
-    save_spectra_image(ttheta,intensity,ai.wavelength,str(filename))
+    #filename = file.parent / image_spectra_dir / (Path(file).stem + '.png')
+    #if not filename.parent.is_dir():
+    #    filename.parent.mkdir(exist_ok=True)
+    #save_spectra_image(ttheta,intensity,ai.wavelength,str(filename))
 
     filename = file.parent / spectra_dir / (Path(file).stem + '.txt')
     if not filename.parent.is_dir():
         filename.parent.mkdir(exist_ok=True)
     write_spectra(ttheta,intensity,str(filename))
+
+    filename = file.parent / spectra_dir / (Path(file).stem + '.fxye')
+    write_spectra(ttheta,intensity,str(filename),sigma)
 
 def rebuild_cinema():
     cinema_d = []
@@ -137,7 +148,7 @@ def rebuild_cinema():
         file_d['id']=base_name.split('_')[-1]
         file_d["FILE_pattern"]=str( rel_path / Path(image_dir) / base_name) + '.png'
         file_d["FILE_pattern_log"]=str( rel_path / Path(image_log_dir) / base_name) + '.png'
-        file_d["FILE_spectra"]=str( rel_path /Path(image_spectra_dir) /  base_name) + '.png'
+        #file_d["FILE_spectra"]=str( rel_path /Path(image_spectra_dir) /  base_name) + '.png'
         file_d["FILE_spectra_txt"]=str( rel_path / Path(spectra_dir)  / base_name) + '.txt'
         #file_d["FILE_pattern_raw"]=str(  base_name) + '.tif'
         cinema_d.append(file_d)
