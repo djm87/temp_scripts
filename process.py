@@ -89,7 +89,7 @@ def write_spectra(ttheta,intensity,file,sigma=None):
 		np.savetxt(file,
 			np.c_[ttheta,intensity],
 			delimiter='\t')
-			#header='2theta,Intensity')
+			#header='2theta,Intensity') 
 	else:
 		np.savetxt(file,
 			np.c_[ttheta,intensity,sigma],
